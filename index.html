@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>PROBEV</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+
+  </head>
+  <body>
+    
+
+    
+    <div class="wrapper inner-page-wrapper">
+
+
+
+      
+
+        <header>
+          <div class="header-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 header-logo text-center">
+                  <a href="#"><img src="images/logo.png" alt="PROBEV"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+
+
+        <div class="main-form-wrapper">
+          <div class="container">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+              
+              <fieldset>
+                
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Business Name</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Business Address</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Business Phone</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="tel" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Contact Name</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Contact Email</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="email" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Contact Phone</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="tel" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="form-group">
+
+                  
+                  
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Audit #</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="1000">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Audit Date</label>
+                    </div>
+                    <div class="col-md-8">
+                       <input type='text' class="form-control" id='datetimepicker4' />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Audit Name</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="audit-checklist-wrapper">
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>Audit Checklist:</h2>
+                    </div>
+                  </div>
+                  
+                  <div class="row audit-checklist-inner">
+                    <div class="col-md-4">
+                      <h3>Description</h3>
+                    </div>
+                    <div class="col-md-8">
+                      <h3>Options</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label># of Faucets</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Tower Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>System Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio">Long Draw</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Short Draw</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Cooling Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio">Air</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Glycol</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">None</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Length of Run</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Cooler Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio">Keg Box</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Walk-In</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Reach-In</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Cooler Use</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio">Shared</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Dedicated</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Beer Cooler Temp</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  
+
+                  <div class="glycol-deck-wrapper">
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4>Glycol Deck</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Brand</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Model</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Serial #</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Temp Setting</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                  </div>
+
+                  
+
+
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Gas Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio">Mixed 60/40</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Mixed 70/30</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">CO2</label>
+                        </li>
+                      </ul>
+                      <ul class="no-bullet zero-margin-padding checklist-plus-input">
+                        <li>
+                          <div class="row">
+                            <div class="col-md-5">
+                              <input type="radio">
+                              <label>Mixed Other</label>
+                            </div>
+                            <div class="col-md-7">
+                              <input type="text" disabled>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Regulator Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio">Individual</label>
+                        </li>
+                        <li>
+                          <label><input type="radio">Common</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Regulator Brand</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  <div class="glycol-deck-wrapper">
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4>Pressure Setting</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Ales</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Lager</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Nitrogen</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="">
+                        </div>
+                      </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Beer Pour Rate (Oz/Sec)</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Beer Pour Temp</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="">
+                    </div>
+                  </div>
+
+                  <div class="recommendations">
+                    <div class="row checklist-wrapper">
+                      <div class="col-md-4">
+                        <label>Recommendations</label>
+                      </div>
+                      <div class="col-md-8">
+                        <ul class="no-bullet zero-margin-padding">
+                          <li>
+                            <label><input type="checkbox">Adjust Pressure</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox">Adjust Temp of Glycol Deck</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox">Adjust Cooler Temp</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox">Clean Evaporator Coil</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox">Clean Condensor Coil</label>
+                          </li>
+                        </ul>
+                        <ul class="no-bullet zero-margin-padding checklist-plus-input">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-5">
+                                <input type="checkbox">
+                                <label>Replace Parts</label>
+                              </div>
+                              <div class="col-md-7">
+                                <input type="text" disabled>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Auditor Comments</label>
+                    </div>
+                    <div class="col-md-8">
+                      <textarea></textarea>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row bottom-button-wrapper">
+                    <div class="col-md-6">
+                      <button class="btn secondary-btn">Save</button>
+                    </div>
+                    <div class="col-md-6">
+                      <button class="btn primary-btn">Email</button>
+                    </div>
+                  </div>
+
+              </fieldset>
+
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+      
+
+        <footer>
+          <div class="container">
+            <div class="footer-contact-info">
+              
+              <p>For more Information, Contact PRO BEV</p>
+              <ul class="no-bullet zero-margin-padding">
+                <li><a href="tel:727-710-4761"><i aria-hidden="true" class="fa fa-phone"></i>727-710-4761</a></li>
+                <li><a href="www.PRO-BEV.com"><i aria-hidden="true" class="fa fa-globe"></i>www.PRO-BEV.com</a></li>
+              </ul>
+
+            </div>
+
+            <div class="footer-basic-info">
+                <p>Florida Contractor License CAC 1818535<br>
+                Copyright 2016 PRO BEV. All Rights Reserved.<br></p>
+            </div>
+
+          </div>
+        </footer>
+
+
+
+
+
+    </div>
+    
+
+
+    
+    
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/moment-with-locales.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker4').datetimepicker();
+        });
+    </script>
+
+  </body>
+</html>

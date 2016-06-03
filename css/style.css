@@ -1,0 +1,450 @@
+/* ==========================================================================
+   Web Apps Form
+   ========================================================================== */
+		.inner-page-wrapper{
+			background-image: url("../images/background.jpg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.header-logo{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			display: -webkit-flex;
+			-webkit-align-items: center;
+			-webkit-justify-content: center;
+			float: none;
+			text-align: center;
+			width: 100%;
+			margin-top: 50px;
+		}
+
+
+
+		.main-form-wrapper fieldset{
+			background-color: #fff;
+			clear: both;
+			display: inline-block;
+			margin-bottom: 50px;
+			margin-top: 50px;
+			padding: 20px;
+			width: 100%;
+		}
+		
+		.main-form-wrapper fieldset .form-group {
+			margin-bottom: 15px;
+		}
+		.main-form-wrapper fieldset .form-group:last-of-type {
+			margin-bottom: 0;
+		}
+		.main-form-wrapper fieldset label{
+			font-family: verdana;
+			font-weight: normal;
+			margin-bottom: 0;
+			padding-top: 10px;
+		}
+		.main-form-wrapper fieldset input,
+		.main-form-wrapper fieldset textarea,
+		.main-form-wrapper fieldset select{
+			border: 2px solid rgba(0, 0, 0, 0.15);
+			border-radius: 2px;
+			box-shadow: none;
+			color: #666;
+			font-family: verdana;
+			font-weight: normal;
+			height: auto;
+			padding: 12px 10px;
+			transition: all 0.5s ease 0s;
+			width: 100%;
+			-webkit-transition: all ease 0.5s 0s;
+		}
+		.main-form-wrapper fieldset textarea{
+			resize: vertical;
+			min-height: 150px;
+		}
+		.main-form-wrapper fieldset input[disabled]{
+			background-color: rgba(0, 0, 0, 0.04);
+			border-width: 1px;
+		}
+		.main-form-wrapper fieldset input:focus,
+		.main-form-wrapper fieldset input:active{
+			border-color: rgba(0, 0, 0, 0.1);
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+			transition: all 0.5s ease 0s;
+			-webkit-transition: all ease 0.5s 0s;
+		}
+
+		/* Date Picker CSS */
+		.bootstrap-datetimepicker-widget,
+		.bootstrap-datetimepicker-widget *{
+			font-family: verdana;
+			font-weight: normal;
+			font-size: 14px;
+		}
+
+		/* Audit Checklist */
+		.audit-checklist-wrapper h2{
+			color: #AE1E23;
+		}
+		.audit-checklist-wrapper{
+			margin-top: 30px;
+		}
+		.audit-checklist-wrapper .audit-checklist-inner{
+			border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+		}
+		.audit-checklist-wrapper .row{
+			margin-bottom: 15px;
+		}
+		.audit-checklist-wrapper .row:last-of-type{
+			margin-bottom: 0;
+		}
+		.checklist-wrapper ul + ul{
+			clear: both;
+			display: inline-block;
+			margin-top: 20px;
+			width: 100%;
+		}
+		.checklist-wrapper ul li{
+			float: left;
+			font-size: 1em;
+			margin-right: 20px;
+		}
+		.checklist-wrapper ul li:last-child{
+			margin-right: 0;
+		}
+		.audit-checklist-wrapper input[type="radio"],
+		.audit-checklist-wrapper input[type="checkbox"] {
+			float: left;
+			width: auto;
+			margin-right: 5px;
+		}
+		.checklist-plus-input input[type="radio"],
+		.checklist-plus-input input[type="checkbox"]{
+			float: left;
+			margin-top: 14px;
+		}
+		.checklist-plus-input label{
+			display: block;
+			overflow: hidden;
+		}
+
+
+		.glycol-deck-wrapper{
+			border-bottom: 2px dotted rgba(0, 0, 0, 0.2);
+			border-top: 2px dotted rgba(0, 0, 0, 0.2);
+			margin-bottom: 20px;
+			margin-top: 30px;
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+
+		.recommendations ul li{
+			float: none;
+			margin-right: 0;
+		}
+
+		.bottom-button-wrapper {
+			margin-top: 30px;
+		}
+		.bottom-button-wrapper .btn,
+		.modal-body .btn{
+			background-color: #B01A2E;
+			color: #fff;
+			font-size: 20px;
+			width: 100%;
+			border-radius: 2px;
+			transition: all ease 0.5s 0s;
+			-webkit-transition: all ease 0.5s 0s;
+		}
+		.bottom-button-wrapper .btn.primary-btn,
+		.modal-body .btn.primary-btn{
+			background-color: #555;
+		}
+		.bottom-button-wrapper .btn:hover,
+		.modal-body .btn:hover{
+			transition: all ease 0.5s 0s;
+			-webkit-transition: all ease 0.5s 0s;
+			color: #fff;
+			background-color: #111;
+		}
+
+
+
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+   		footer{
+   			font-family: verdana;
+   			color: #fff;
+   			padding: 20px 0;
+   			font-size: 14px;
+   		}
+   		footer p{
+   			font-size: 14px;	
+   		}
+   		footer a{
+   			color: #fff;	
+   		}
+   		footer a:hover{
+   			border-bottom: 1px dotted #fff;
+   			color: #fff;
+   		}
+   		footer .footer-contact-info{
+   			display: inline-block;
+   			width: 100%;
+   		}
+   		footer .footer-contact-info p{
+   			float: left;
+   		}
+   		footer .footer-contact-info ul{
+   			float: right;
+   			text-align: right;
+   		}
+   		footer .footer-contact-info ul li{
+   			font-size: 14px;
+   			float: left;
+   			margin-left: 20px;
+   		}
+   		footer .footer-contact-info ul li:first-child{
+   			margin-left: 0;	
+   		}
+   		footer .footer-contact-info ul li i{
+   			padding-right: 10px;
+   		}
+   		footer .footer-basic-info{
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+			clear: both;
+			display: inline-block;
+			margin-top: 10px;
+			padding-top: 10px;
+			width: 100%;
+			text-align: center;
+   		}
+
+
+
+/* ==========================================================================
+	Popup
+	========================================================================== */
+		.modal-body{
+			font-family: "Verdana";
+			font-weight: normal;
+			font-size: 14px;
+			color: #666;
+		}
+		.modal-body label{
+			font-weight: normal;
+		}
+		.modal-body ul li{
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+		}
+		.modal-body ul li:last-child{
+			margin-bottom: 0;
+		}
+		.modal-body .btn{
+			margin-top: 20px;
+			padding: 15px 30px 13px;
+			width: auto;
+		}
+		.modal-body input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]){
+			border: 2px solid rgba(0, 0, 0, 0.15);
+			border-radius: 2px;
+			box-shadow: none;
+			color: #666;
+			font-family: verdana;
+			font-weight: normal;
+			height: auto;
+			padding: 12px 10px;
+			transition: all 0.5s ease 0s;
+			width: 100%;
+		}
+		.modal-body input[type="radio"],
+		.modal-body input[type="checkbox"]{
+			vertical-align: text-top;
+		}
+
+	
+		.modal-header {
+			background-color: #b01a2e;
+			border-bottom: medium none;
+			color: #fff;
+			padding: 15px;
+		}
+		.modal-title {
+			font-size: 28px;
+			line-height: 1.3;
+			margin: 0;
+		}
+		button.close {
+			background: transparent none repeat scroll 0 0;
+			border: 2px solid #fff;
+			cursor: pointer;
+			padding: 0;
+		}
+		.close {
+			color: #fff;
+			float: right;
+			font-size: 32px;
+			font-weight: bold;
+			height: 35px;
+			line-height: 0.8;
+			opacity: 1;
+			text-shadow: none;
+			width: 35px;
+		}
+		.modal-header .close {
+			margin-top: 0;
+		}
+		.close:hover, .close:focus {
+			background-color: #fff;
+			color: #b01a2e;
+			cursor: pointer;
+			opacity: 1;
+			text-decoration: none;
+		}
+		.modal-content{
+			border-radius: 0;
+		}
+
+
+
+
+
+
+/* ==========================================================================
+   Bottom Button
+   ========================================================================== */
+   		.bottom-button-wrapper a{
+			border-top: 1px dotted rgba(0, 0, 0, 0.2);
+			clear: both;
+			display: inline-block;
+			font-family: "Verdana";
+			margin-top: 20px;
+			padding-top: 10px;
+			width: 100%;
+   		}
+
+
+
+
+
+
+/* ==========================================================================
+   History Page
+   ========================================================================== */
+		.main-form-wrapper .table{
+			margin: 30px 0;
+			background-color: #fff;
+			border-radius: 6px;
+		}
+		.main-form-wrapper .table,
+		.main-form-wrapper .table a {
+			color: #666;
+			font-family: Verdana;
+		}
+		.main-form-wrapper .table-hover > tbody > tr:hover {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+		.main-form-wrapper .table thead {
+			font-weight: 700;
+			text-transform: uppercase;
+			background-color: #AE1E23;
+			color: #fff;
+		}
+		.main-form-wrapper .table thead th{
+			border: 0;
+		}
+		.table > thead > tr > th,
+		.table > tbody > tr > th,
+		.table > tfoot > tr > th,
+		.table > thead > tr > td,
+		.table > tbody > tr > td,
+		.table > tfoot > tr > td {
+		  border-top: 1px solid #ddd;
+		  line-height: 1.42857;
+		  padding: 12px;
+		  vertical-align: top;
+		}
+
+
+
+
+
+/* ==========================================================================
+   Loader
+   ========================================================================== */
+   		.loader-wrapper{
+			position: relative;
+   		}
+   		.loader-wrapper:before{
+			background-color: rgba(255, 255, 255, 0.5);
+			content: "";
+			height: 100%;
+			position: absolute;
+			width: 100%;
+			z-index: 9999;
+   		}
+   		.loader-wrapper:after{
+			background-color: #fff;
+			background-image: url("../images/spinner.gif");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border: 8px solid #fff;
+			border-radius: 4px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			content: "";
+			display: inline-block;
+			height: 74px;
+			left: 50%;
+			position: fixed;
+			top: 50%;
+			width: 74px;
+			z-index: 99999;
+   		}
+
+
+
+
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+   		@media (max-width: 1200px) {
+			.container {
+				width: 100%;
+			}
+		}
+   		@media (max-width: 767px) {
+			.main-form-wrapper .col-sm-8{
+				width: 100%;
+			}
+			footer .footer-contact-info{
+				text-align: center;
+			}
+			footer .footer-contact-info p {
+				display: inline-block;
+				float: none;
+				margin-bottom: 10px;
+				width: 100%;
+			}
+			footer .footer-contact-info ul li {
+				display: inline-block;
+				float: none;
+				font-size: 14px;
+			}
+			footer .footer-contact-info ul {
+				float: none;
+				text-align: center;
+			}
+		}

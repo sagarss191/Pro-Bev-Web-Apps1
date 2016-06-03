@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>PROBEV</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+
+  </head>
+  <body>
+    
+
+    
+    <div class="wrapper inner-page-wrapper">
+
+
+
+      
+
+        <header>
+          <div class="header-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 header-logo text-center">
+                  <a href="#"><img src="images/logo.png" alt="PROBEV"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+
+
+        <div class="main-form-wrapper">
+          <div class="container">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+
+              <fieldset>
+                
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Business Name</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" id="businessname" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Business Address</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="businessaddress">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>City</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>State</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Zip</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Business Phone</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="tel" placeholder="" id="businessphone">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Contact Name</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="contactname">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Contact Email</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="email" placeholder="" id="contactemail">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Contact Phone</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="tel" placeholder="" id="contactphone">
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="form-group">
+
+                  
+                  
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Audit #</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="1000" id="auditnumber">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Audit Date</label>
+                    </div>
+                    <div class="col-md-8">
+                       <input type='date' class="form-control" id="auditdate" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Audit Name</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="auditname">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="audit-checklist-wrapper">
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>Audit Checklist:</h2>
+                    </div>
+                  </div>
+                  
+                  <div class="row audit-checklist-inner">
+                    <div class="col-md-4">
+                      <h3>Description</h3>
+                    </div>
+                    <div class="col-md-8">
+                      <h3>Options</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label># of Faucets</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="offaucets">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Tower Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="towertype">
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>System Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio" name="systemtype" value="Long Draw">Long Draw</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="systemtype" value="Short Draw">Short Draw</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Cooling Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio" name="coolingtype" value="Air">Air</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="coolingtype" value="Glycol">Glycol</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="coolingtype" value="None">None</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Length of Run</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="lengthofrun">
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Cooler Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio" name="coolertype" value="Keg Box">Keg Box</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="coolertype" value="Walk-In">Walk-In</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="coolertype" value="Reach-In">Reach-In</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Cooler Use</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio" name="cooleruse" value="Shared">Shared</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="cooleruse" value="Dedicated">Dedicated</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Beer Cooler Temp</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="beercoolertemp">
+                    </div>
+                  </div>
+
+                  
+
+                  <div class="glycol-deck-wrapper">
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4>Glycol Deck</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Brand</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="" id="brand">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Model</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="model">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Serial #</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="" id="serialno">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Temp Setting</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="" id="tempsetting">
+                        </div>
+                      </div>
+
+                  </div>
+
+                  
+
+
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Gas Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio" name="gastype" value="Mixed 60/40">Mixed 60/40</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="gastype" value="Mixed 70/30">Mixed 70/30</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="gastype" value="CO2">CO2</label>
+                        </li>
+                      </ul>
+                      <ul class="no-bullet zero-margin-padding checklist-plus-input">
+                        <li>
+                          <div class="row">
+                            <div class="col-md-5">
+                              <input type="radio" name="gastype" value="Mixed Other">
+                              <label>Mixed Other</label>
+                            </div>
+                            <div class="col-md-7">
+                              <input type="text" id="gastypeothertext" >
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+
+                  <div class="row checklist-wrapper">
+                    <div class="col-md-4">
+                      <label>Regulator Type</label>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="no-bullet zero-margin-padding">
+                        <li>
+                          <label><input type="radio" name="regulatortype" value="Individual">Individual</label>
+                        </li>
+                        <li>
+                          <label><input type="radio" name="regulatortype" value="Common">Common</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Regulator Brand</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="regulatorbrand">
+                    </div>
+                  </div>
+
+                  <div class="glycol-deck-wrapper">
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4>Pressure Setting</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Ales</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="" id="ales">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Lager</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="" id="lager">
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <label>Nitrogen</label>
+                        </div>
+                        <div class="col-md-8">
+                          <input type="text" placeholder="" id="nitrogen">
+                        </div>
+                      </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Beer Pour Rate (Oz/Sec)</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="beerpourrate">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Beer Pour Temp</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" placeholder="" id="beerpourtemp">
+                    </div>
+                  </div>
+
+                  <div class="recommendations">
+                    <div class="row checklist-wrapper">
+                      <div class="col-md-4">
+                        <label>Recommendations</label>
+                      </div>
+                      <div class="col-md-8">
+                        <ul class="no-bullet zero-margin-padding">
+                          <li>
+                            <label><input type="checkbox" name="recommendations" value="Adjust Pressure">Adjust Pressure</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox" name="recommendations" value="Adjust Temp of Glycol Deck">Adjust Temp of Glycol Deck</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox" name="recommendations" value="Adjust Cooler Temp">Adjust Cooler Temp</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox" name="recommendations" value="Clean Evaporator Coil">Clean Evaporator Coil</label>
+                          </li>
+                          <li>
+                            <label><input type="checkbox" name="recommendations" value="Clean Condensor Coil">Clean Condensor Coil</label>
+                          </li>
+                        </ul>
+                        <ul class="no-bullet zero-margin-padding checklist-plus-input">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-5">
+                                <input type="checkbox" name="recommendations" value="Replace Parts">
+                                <label>Replace Parts</label>
+                              </div>
+                              <div class="col-md-7">
+                                <input id="recommendationsreplacetext" type="text" >
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <label>Auditor Comments</label>
+                    </div>
+                    <div class="col-md-8">
+                      <textarea id="auditorcomment" required></textarea>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row bottom-button-wrapper">
+                    <div class="col-md-6">
+
+                  <input type="submit" class="btn secondary-btn" id="Save" value="Save" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="submit" class="btn primary-btn" id="Email" value="Email" data-toggle="modal" data-target="#myModal" />
+                        <!-- <a href="javascript:void(0)" >Test</a> -->
+                    </div>
+                  </div>
+
+              </fieldset>
+
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+      
+
+        <footer>
+          <div class="container">
+            <div class="footer-contact-info">
+              
+              <p>For more Information, Contact PRO BEV</p>
+              <ul class="no-bullet zero-margin-padding">
+                <li><a href="tel:727-710-4761"><i aria-hidden="true" class="fa fa-phone"></i>727-710-4761</a></li>
+                <li><a href="www.PRO-BEV.com"><i aria-hidden="true" class="fa fa-globe"></i>www.PRO-BEV.com</a></li>
+              </ul>
+
+            </div>
+
+            <div class="footer-basic-info">
+                <p>Florida Contractor License CAC 1818535<br>
+                Copyright 2016 PRO BEV. All Rights Reserved.<br></p>
+            </div>
+
+          </div>
+        </footer>
+
+
+
+
+
+    </div>
+    
+
+
+    
+    
+    
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/moment-with-locales.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#auditdate').datetimepicker();
+        });
+    </script>
+    
+    <script>
+              $(document).ready(function() {
+                  //get icrement value
+
+                  $("#gastypeothertext").attr("disabled", "disabled");
+                  $("#recommendationsreplacetext").attr("disabled", "disabled");
+
+                  $.ajax({
+                      type: 'post',
+                      url: 'http://localhost:82/pro/getid.php',
+                      success: function(data1) {
+
+                          $("#auditnumber").val(data1);
+                      }
+                  });
+                  $('input[type=radio][name=gastype]').change(function() {
+
+                      if ($("input[name='gastype']:checked").val() == "Mixed Other") {
+
+                          $("#gastypeothertext").removeAttr("disabled");
+                      } else {
+                          $("#gastypeothertext").attr("disabled", "disabled");
+                      }
+
+                  });
+
+
+                  $('input[type=checkbox][name=recommendations]').change(function() {
+                      var recommendationslist1 = [];
+                      $.each($("input[name='recommendations']:checked"), function() {
+                          recommendationslist1.push($(this).val());
+                      });
+
+                      var recommendations1 = recommendationslist1.join(", ");
+
+                      if (recommendations1.search("Replace Parts") != -1) {
+                          $("#recommendationsreplacetext").removeAttr("disabled");
+                      } else {
+                          $("#recommendationsreplacetext").attr("disabled", "disabled");
+                      }
+
+                  });
+
+
+
+                  $("#Save").click(function() {
+                      var businessname = $("#businessname").val();
+                      var businessaddress = $("#businessaddress").val();
+                      var businessphone = $("#businessphone").val();
+                      var contactname = $("#contactname").val();
+                      var contactemail = $("#contactemail").val();
+                      var contactphone = $("#contactphone").val();
+                      var auditnumber = $("#auditnumber").val();
+                      var auditdate = $("#auditdate").val();
+                      var auditname = $("#auditname").val();
+                      var offaucets = $("#offaucets").val();
+                      var towertype = $("#towertype").val();
+                      var systemtype = $("input[name='systemtype']:checked").val();
+                      var coolingtype = $("input[name='systemtype']:checked").val();
+                      var lengthofrun = $("#lengthofrun").val();
+                      var coolertype = $("input[name='systemtype']:checked").val();
+                      var cooleruse = $("input[name='systemtype']:checked").val();
+                      var beercoolertemp = $("#beercoolertemp").val();
+                      var brand = $("#brand").val();
+                      var model = $("#model").val();
+                      var serialno = $("#serialno").val();
+                      var tempsetting = $("#tempsetting").val();
+
+                      var gastype = $("input[name='systemtype']:checked").val();
+                      var gastypeothertext = $("#gastypeothertext").val();
+                      var regulatortype = $("input[name='regulatortype']:checked").val();
+
+                      var regulatorbrand = $("#regulatorbrand").val();
+
+                      var ales = $("#ales").val();
+                      var lager = $("#lager").val();
+                      var nitrogen = $("#nitrogen").val();
+
+                      var beerpourrate = $("#beerpourrate").val();
+                      var beerpourtemp = $("#beerpourtemp").val();
+                      var recommendationslist = [];
+                      $.each($("input[name='recommendations']:checked"), function() {
+                          recommendationslist.push($(this).val());
+                      });
+
+                      var recommendations = recommendationslist.join(", ");
+
+                      var recommendationsreplacetext = $("#recommendationsreplacetext").val();
+
+
+                      var auditorcomment = $("#auditorcomment").val();
+
+
+
+                      $.ajax({
+
+                          type: 'post',
+
+                          url: 'http://localhost:82/pro/insert.php',
+
+
+
+                          data: {
+                              businessname: businessname,
+                              businessaddress: businessaddress,
+                              businessphone: businessphone,
+                              contactname: contactname,
+                              contactemail: contactemail,
+                              contactphone: contactphone,
+                              auditnumber: auditnumber,
+                              auditdate: auditdate,
+                              auditname: auditname,
+                              offaucets: offaucets,
+                              towertype: towertype,
+                              systemtype: systemtype,
+                              coolingtype: coolingtype,
+                              lengthofrun: lengthofrun,
+                              coolertype: coolertype,
+                              cooleruse: cooleruse,
+                              beercoolertemp: beercoolertemp,
+                              brand: brand,
+                              model: model,
+                              serialno: serialno,
+                              tempsetting: tempsetting,
+                              gastype: gastype,
+                              gastypeothertext: gastypeothertext,
+                              regulatortype: regulatortype,
+                              regulatorbrand: regulatorbrand,
+                              ales: ales,
+                              lager: lager,
+                              nitrogen: nitrogen,
+                              beerpourrate: beerpourrate,
+                              beerpourtemp: beerpourtemp,
+                              recommendations: recommendations,
+                              recommendationsreplacetext: recommendationsreplacetext,
+                              auditorcomment: auditorcomment
+
+                          },
+
+                          success: function(data1) {
+                              alert("Saved");
+                              location.reload();
+                          }
+                      });
+
+
+                  });
+
+
+
+
+                  //email code
+                  $("#Email").click(function() {
+                      var businessname = $("#businessname").val();
+                      var businessaddress = $("#businessaddress").val();
+                      var businessphone = $("#businessphone").val();
+                      var contactname = $("#contactname").val();
+                      var contactemail = $("#contactemail").val();
+                      var contactphone = $("#contactphone").val();
+                      var auditnumber = $("#auditnumber").val();
+                      var auditdate = $("#auditdate").val();
+                      var auditname = $("#auditname").val();
+                      var offaucets = $("#offaucets").val();
+                      var towertype = $("#towertype").val();
+                      var systemtype = $("input[name='systemtype']:checked").val();
+                      var coolingtype = $("input[name='systemtype']:checked").val();
+                      var lengthofrun = $("#lengthofrun").val();
+                      var coolertype = $("input[name='systemtype']:checked").val();
+                      var cooleruse = $("input[name='systemtype']:checked").val();
+                      var beercoolertemp = $("#beercoolertemp").val();
+                      var brand = $("#brand").val();
+                      var model = $("#model").val();
+                      var serialno = $("#serialno").val();
+                      var tempsetting = $("#tempsetting").val();
+
+                      var gastype = $("input[name='systemtype']:checked").val();
+                      var gastypeothertext = $("#gastypeothertext").val();
+                      var regulatortype = $("input[name='regulatortype']:checked").val();
+
+                      var regulatorbrand = $("#regulatorbrand").val();
+
+                      var ales = $("#ales").val();
+                      var lager = $("#lager").val();
+                      var nitrogen = $("#nitrogen").val();
+
+                      var beerpourrate = $("#beerpourrate").val();
+                      var beerpourtemp = $("#beerpourtemp").val();
+                      var recommendationslist = [];
+                      $.each($("input[name='recommendations']:checked"), function() {
+                          recommendationslist.push($(this).val());
+                      });
+
+                      var recommendations = recommendationslist.join(", ");
+
+                      var recommendationsreplacetext = $("#recommendationsreplacetext").val();
+
+
+                      var auditorcomment = $("#auditorcomment").val();
+
+
+
+                      $.ajax({
+
+                          type: 'post',
+
+                          url: 'http://localhost:82/pro/sendemail.php',
+
+
+
+                          data: {
+                              businessname: businessname,
+                              businessaddress: businessaddress,
+                              businessphone: businessphone,
+                              contactname: contactname,
+                              contactemail: contactemail,
+                              contactphone: contactphone,
+                              auditnumber: auditnumber,
+                              auditdate: auditdate,
+                              auditname: auditname,
+                              offaucets: offaucets,
+                              towertype: towertype,
+                              systemtype: systemtype,
+                              coolingtype: coolingtype,
+                              lengthofrun: lengthofrun,
+                              coolertype: coolertype,
+                              cooleruse: cooleruse,
+                              beercoolertemp: beercoolertemp,
+                              brand: brand,
+                              model: model,
+                              serialno: serialno,
+                              tempsetting: tempsetting,
+                              gastype: gastype,
+                              gastypeothertext: gastypeothertext,
+                              regulatortype: regulatortype,
+                              regulatorbrand: regulatorbrand,
+                              ales: ales,
+                              lager: lager,
+                              nitrogen: nitrogen,
+                              beerpourrate: beerpourrate,
+                              beerpourtemp: beerpourtemp,
+                              recommendations: recommendations,
+                              recommendationsreplacetext: recommendationsreplacetext,
+                              auditorcomment: auditorcomment
+
+                          },
+
+                          success: function(data1) {
+                              alert("Saved");
+                              location.reload();
+                          }
+                      });
+
+
+                  });
+
+
+
+
+              });
+    </script>
+
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Email</h4>
+      </div>
+      <div class="modal-body">
+         
+        <ul class="no-bullet zero-margin-padding">
+          <li>
+            <div class="row">
+              <div class="col-md-4">
+                <label style="margin-top: 12px;">
+                  <input type="checkbox" value="Mixed Other" name="gastype">
+                  Send email to
+                </label>
+              </div>
+              <div class="col-md-8">
+                <input type="text">
+              </div>
+            </div>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" value="Mixed 60/40" name="gastype">
+              Send email to Pro Bev
+            </label>
+          </li>
+        </ul>
+
+        <input type="submit" value="Submit" class="btn primary-btn">
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
